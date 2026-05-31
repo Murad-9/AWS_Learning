@@ -36,7 +36,7 @@ To allow external connectivity, i attatched an internet gateway (IGW) to the VPC
 
 Allocated an Elastic IP, Created a NAT gateway inside the public subnet , Associated the Elastic IP with the NAT gateway.
 
-The NAT gateway allowed resources inside the private subnet to access the internet for updates,package installations, etc, without exposing the, directly to inbound traffic.
+The NAT gateway allowed resources inside the private subnet to access the internet for updates,package installations, etc, without exposing them directly to inbound traffic.
 
 # Route tables
 
