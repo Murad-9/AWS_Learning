@@ -52,8 +52,10 @@ AWS automatically handles route tables during the creation of a VPC. I reviewed 
 - The public subnet route table included a default route to the IGW
 - The private subnet route inclided a default route to the NAT Gateway
 
+**Pub Subnet Route table**
 <img width="988" height="517" alt="safe public route" src="https://github.com/user-attachments/assets/0757f288-735c-4a5c-b271-d13a6d9660be" />
 
+**Priv Subnet Route table**
 <img width="996" height="504" alt="safe private route" src="https://github.com/user-attachments/assets/1b1fe849-84c0-4af7-adae-c15d8bd5ec59" />
 
 
