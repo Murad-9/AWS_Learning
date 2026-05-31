@@ -38,6 +38,22 @@ Allocated an Elastic IP, Created a NAT gateway inside the public subnet , Associ
 
 The NAT gateway allowed resources inside the private subnet to access the internet for updates,package installations, etc, without exposing the, directly to inbound traffic.
 
+# Route tables
+
+AWS automatically handles route tables during the creation of a VPC. I reviewed the routing configuration to ensure :
+
+- The public subnet route table included a default route to the IGW
+- The private subnet route inclided a default route to the NAT Gateway
+
+<img width="988" height="517" alt="safe public route" src="https://github.com/user-attachments/assets/0757f288-735c-4a5c-b271-d13a6d9660be" />
+
+<img width="996" height="504" alt="safe private route" src="https://github.com/user-attachments/assets/1b1fe849-84c0-4af7-adae-c15d8bd5ec59" />
+
+
+
+
+
+
 # Resource Map
 <img width="997" height="514" alt="safe resource map" src="https://github.com/user-attachments/assets/8d055006-9a73-4873-a8a1-39253c5798c9" />
 
