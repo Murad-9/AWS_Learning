@@ -113,7 +113,14 @@ To validate the VPC setup, I tested connectivity between resources:
 <img width="445" height="261" alt="real privec2 screenshot" src="https://github.com/user-attachments/assets/b1ffa897-f5c7-4060-a6bd-e7518caa0a93" />
 
 
+# What I Learned
 
+Through this project, I gained hands-on experience with designing and building a secure cloud network using AWS VPC. I learned how different networking components work together to creat isolated and scalable cloud architectures.
+
+- How to design and configure a custom VPC
+- The role of public & private subnets in network segmentation
+- The importance of IGW's,NGW's,SG's
+- Using a public EC2 as a bastion host 
 
 
 
