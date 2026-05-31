@@ -39,7 +39,8 @@ Allocated an Elastic IP, Created a NAT gateway inside the public subnet , Associ
 The NAT gateway allowed resources inside the private subnet to access the internet for updates,package installations, etc, without exposing the, directly to inbound traffic.
 
 # Resource Map
-<img width="1280" height="800" alt="rsource map git" src="https://github.com/user-attachments/assets/4accdeeb-caf6-482e-b106-5e31d1715c18" />
+<img width="997" height="514" alt="safe resource map" src="https://github.com/user-attachments/assets/8d055006-9a73-4873-a8a1-39253c5798c9" />
+
 
 
 
