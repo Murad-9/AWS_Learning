@@ -14,3 +14,7 @@ This project demonstrates the creation of a fully custom AWS networking environm
 - Public EC2 instance
 - Private EC2 instance
 
+## Architecture Diagram
+<img width="632" height="421" alt="IMG_7806" src="https://github.com/user-attachments/assets/5d94f66f-2029-47f6-9c80-18dde9f147d1" />
+
+
