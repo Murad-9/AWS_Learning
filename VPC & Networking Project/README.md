@@ -115,7 +115,7 @@ To validate the VPC setup, I tested connectivity between resources:
 
 # What I Learned
 
-Through this project, I gained hands-on experience with designing and building a secure cloud network using AWS VPC. I learned how different networking components work together to creat isolated and scalable cloud architectures.
+Through this project, I gained hands-on experience with designing and building a secure cloud network using AWS VPC. I learned how different networking components work together to create isolated and scalable cloud architectures.
 
 - How to design and configure a custom VPC
 - The role of public & private subnets in network segmentation
