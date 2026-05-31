@@ -67,7 +67,7 @@ AWS automatically handles route tables during the creation of a VPC. I reviewed 
 
 # Security Groups
 
-Security Groups were configured before launchiong EC2 instances.
+Security Groups were configured before launching EC2 instances.
 
 **Public EC2 Security Group**
 - Allow SSH access only from my IP address
