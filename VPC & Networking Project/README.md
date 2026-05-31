@@ -18,3 +18,31 @@ This project demonstrates the creation of a fully custom AWS networking environm
 <img width="632" height="421" alt="IMG_7806" src="https://github.com/user-attachments/assets/5d94f66f-2029-47f6-9c80-18dde9f147d1" />
 
 
+## Key Features
+
+# Custom Networking 
+Started by creating a custom VPC using the CIDR block 10.0.0.0/16.This provided a private network space where all the resources for the project would exist.
+
+After creating the VPC, i configured:
+- public subnet
+- private subnet 
+
+The public subnet was designed for resources requiring direct internet access, while the private subnet was intended for internal-only resources.
+
+
+# Configuring internet access
+
+To allow external connectivity, i attatched an internet gateway (IGW) to the VPC.
+
+Allocated an Elastic IP, Created a NAT gateway inside the public subnet , Associated the Elastic IP with the NAT gateway.
+
+The NAT gateway allowed resources inside the private subnet to access the internet for updates,package installations, etc, without exposing the, directly to inbound traffic.
+
+# Resource Map
+<img width="1280" height="800" alt="rsource map git" src="https://github.com/user-attachments/assets/4accdeeb-caf6-482e-b106-5e31d1715c18" />
+
+
+
+
+
+
