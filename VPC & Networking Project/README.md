@@ -32,7 +32,7 @@ The public subnet was designed for resources requiring direct internet access, w
 
 # Configuring internet access
 
-To allow external connectivity, i attatched an internet gateway (IGW) to the VPC.
+To allow external connectivity, i attached an internet gateway (IGW) to the VPC.
 
 Allocated an Elastic IP, Created a NAT gateway inside the public subnet , Associated the Elastic IP with the NAT gateway.
 
