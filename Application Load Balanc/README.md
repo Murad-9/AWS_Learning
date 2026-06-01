@@ -21,7 +21,7 @@ The architecture ensures that all incoming traffic is handled through the ALB wh
 
 # EC2 instance deployment 
 
-I launched two EC2 instances within the same VPC and placed them across different availability zones wto improve availability and fault tolerance.
+I launched two EC2 instances within the same VPC and placed them across different availability zones to improve availability and fault tolerance.
 
 **Each Instance:**
 - Ran a simple web server installed through user data
