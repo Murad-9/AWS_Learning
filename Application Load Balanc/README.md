@@ -71,7 +71,34 @@ Security groups were configured to enforce secure communication between componen
 
 This ensured that all external traffic flowed through the ALB rather than directly to servers.
 
+# Testing & Validation
 
+To validate the architecture:
+- I accessed the application using the ALB DNS name
+- Refreshed the webpage multiple times to confirm traffic was alternating between both EC2 instances
+- Verified that both instances passed the ALB health checks successfully
+
+This confirmed that the ALB, target group, routing, and security configurations were functioning properly.
+
+**Web-Server-1**
+<img width="1020" height="757" alt="server1" src="https://github.com/user-attachments/assets/3a57e5ef-2d0e-4b14-b2bb-2021e0ba7b60" />
+
+**Web-Server-2**
+<img width="1018" height="757" alt="server 2" src="https://github.com/user-attachments/assets/5f3a4b13-9aba-4e63-91c9-edb24daafc51" />
+
+
+# What I Learned
+
+Through this project, i gained hands-on experience with:
+- Deploying highly available applications across multiple AZ's
+- Configuring ALB in AWS
+- Using Target groups and health checks
+- Automating EC2 configuration using user-data scripts
+- Implementing secure security group relationships between services
+- Restricting direct access to backend infrastructure
+- Understanding how load balancing improves scalability and reliability
+
+This project strengthened my understanding of cloud networking, traffic distribution, and secure AWS architecture design.
 
 
 
