@@ -14,7 +14,7 @@ in this project, i deployed:
 The architecture ensures that all incoming traffic is handled through the ALB while preventing direct public access to the EC2 instances.
 
 
-**Architectural Diagram
+**Architectural Diagram**
 
 <img width="599" height="448" alt="IMG_7809" src="https://github.com/user-attachments/assets/1ddd3752-9daf-4f61-8ce8-63ca1b44e995" />
 
