@@ -9,6 +9,7 @@ This project details the creation of a serverless backend on AWS, transitioning 
 # Amazon DynamoDB setup
 
 Created the students NoSQL database table with "id" as the partition key to store student submissions.
+On-demand Capacity mode
 
 **DynamoDB Table**
 <img width="1243" height="621" alt="ASM4-DynamoDB" src="https://github.com/user-attachments/assets/40c1eae3-5abf-42c1-bdf5-a0fd317ce02d" />
