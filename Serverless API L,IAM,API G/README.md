@@ -42,7 +42,7 @@ Validated system functionality by testing with terminal commands and verified re
 
 
 **Terminal Test**
-img width="569" height="357" alt="ASM4-Terminal-Upload" src="https://github.com/user-attachments/assets/b9f883f6-8356-4716-b77e-271fdb357cb4" />
+<img width="569" height="357" alt="ASM4-Terminal-Upload" src="https://github.com/user-attachments/assets/b9f883f6-8356-4716-b77e-271fdb357cb4" />
 
 **DynamoDB Verification**<
 <img width="651" height="386" alt="ASM4- Validation" src="https://github.com/user-attachments/assets/c7fcc012-6eaa-4992-baa9-728634af08b3" />
